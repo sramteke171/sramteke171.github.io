@@ -16,7 +16,7 @@
     font-size: 30px;
   }
   
-  /* The grid container */
+  /* grid container */
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -40,17 +40,17 @@
   }
   
 
-  /* Style the left column */
+  /* left column */
   .left {
     grid-area: left;
   }
   
-  /* Style the middle column */
+  /* middle column */
   .middle {
     grid-area: middle;
   }
   
-  /* Style the right column */
+  /* right column */
   .right {
     grid-area: right;
   }
@@ -60,7 +60,7 @@
     grid-column: 2;
     background: lemonchiffon;
   }
-  /* Style the footer */
+  /* footer */
   .footer {
     grid-area: footer;
     background-color: #f1f1f1;
